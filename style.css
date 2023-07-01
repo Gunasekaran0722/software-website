@@ -81,6 +81,31 @@
 
 }
 
+
+@media screen and (max-width: 480px) {
+
+
+    
+    .nav-bar{
+        margin-top: 10px;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 250px;
+
+    }
+    .imagedetails{
+
+        margin-left: 200px;
+    
+    }
+    .nav-bar .logo{
+        text-wrap: nowrap;
+        width: 100px;
+    }
+
+  }
+
 .frot-text h1{
 
     margin-top: 100px;
